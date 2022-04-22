@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro professor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style-home.css"/>
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">
+      <div id="login">
+        <form> 
+          <h2>Cadastro professor</h2> 
+          <p> 
+            <label for="nome">Nome do professor</label>
+            <input id="nome" name="nome" required="required" type="text">
+          </p>
+          <p> 
+            <label for="nasc">Data de nascimento (utilize "/" com separador)</label>
+            <input id="nasc" name="nasc" required="required" type="datetime"/> 
+          </p> 
+          <p> 
+            <button class='bt' onclick="alert('Professor cadastrado')">Cadastrar</button>
+          </p>
+        </form>
+        <ul>
+            <li><a href="cad_aluno.html">Cadastrar aluno</a></li>
+            <li><a href="cad_responsavel.html">Cadastrar responsavel</a></li>
+            <li><a href="index.html">Voltar pra home</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

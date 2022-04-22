@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Página de login escola</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style-home.css"/>
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">
+      <div id="login">
+        <form> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="id_login">Seu id</label>
+            <input id="id_login" name="nome_login" required="required" type="text"/>
+          </p>
+          <p> 
+            <label for="senha">Sua senha</label>
+            <input id="senha_login" name="senha_login" required="required" type="password"/> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>   
+          <p id="entrar"> 
+            <a href="aluno.html"><button class="bt">Logar como aluno</button></a>
+            <a href="professor.html"><button class="bt">Logar como professor</button></a>
+            <a href="secretaria.html"><button class="bt">Logar como secretaria</button></a>
+            <a href="responsavel.html"><button class="bt">Logar como responsável</button></a>
+          </p>
+        </form>
+        <p><h3>Ainda não é cadastrado?</h3></p>
+        <a href="cad_aluno.html"><button class="bt">Cadastre-se</button></a>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
