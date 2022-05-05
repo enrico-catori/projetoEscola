@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-home.css"/>
+    <title>Área do Responsável</title>
+</head>
+<body>
+    <h1>Área do Responsável</h1><br>
+    <form>
+        <p style="font-size: 25px;"><label for="extra">Selecione o ano letivo para matricular seu filho.</label></p><br>
+        <p><b>Ensino Fundamental:</b></p>
+        <select name="select">
+            <option value="valor1" selected>1° Ensino Fundamental</option>
+            <option value="valor2" >2° Ensino Fundamental</option>
+            <option value="valor3" >3° Ensino Fundamental</option>
+            <option value="valor4" >4° Ensino Fundamental</option>
+            <option value="valor5" >5° Ensino Fundamental</option>
+            <option value="valor6" >6° Ensino Fundamental</option>
+            <option value="valor7" >7° Ensino Fundamental</option>
+            <option value="valor8" >8° Ensino Fundamental</option>
+            <option value="valor9" >9° Ensino Fundamental</option>
+          </select><br><br>
+          <button class="bt" onclick="alert('Aluno matriculado')">Matricular aluno</button>
+    </form><br>
+    
+    <form>
+        <p><b>Ensino Médio:</b></p><br>
+          <select>
+            <option value="valor1" selected>1° Ensino Médio</option>
+            <option value="valor2" >2° Ensino Médio</option>
+            <option value="valor3" >3° Ensino Médio</option>
+          </select><br><br>
+          <button class="bt" onclick="alert('Aluno matriculado')">Matricular aluno</button>
+    </form><br>
+
+    <form>
+        <p><b>Atividades Extras Disponiveis:</b></p><br>
+          <select>
+            <option value="valor1" selected>Musica</option>
+            <option value="valor2" >Algebra</option>
+            <option value="valor3" >Natação</option>
+          </select><br><br>
+          <button class="bt" onclick="alert('Aluno matriculado')">Matricular aluno</button>
+    </form><br>
+    <h2></h2>
+    <p style="font-size: 25px;">Receba o seu boleto de pagamento!</p>
+    <p>Cadastre seus contatos:</p>
+    <form >
+        <p>
+            <label>Email:</label>
+            <input name="email" type="email">
+        </p><br>
+        <p>
+            <label>Celular:</label>
+            <input name="celular" type="tel"
+        </p>
+        
+        <p> <button class='bt' onclick="alert('Email e SMS enviados')">Cadastrar</button></p>
+        
+    </form>
+    <h2></h2>
+
+    <p style="font-size: 25px;"><label>Agenda de provas</label></p>
+    <table>
+        <tr>
+            <th>Matéria</th>
+            <th>Data da avaliação</th>
+            
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>20/05</td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td>20/05</td>
+        </tr>
+    </table><br><br>
+    <h2></h2>
+
+    <p style="font-size: 25px;"><label>Boletim de Notas</label></p>
+    <table>
+        <tr>
+            <th>Disciplina</th>
+            <th>Média 1</th>
+            <th>Média 2</th>
+            <th>Resultado</th>
+            
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>4.2</td>
+            <td>5.0</td>
+            <td>9.2</td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td>5.1</td>
+            <td>2.0</td>
+            <td>7.1</td>
+        </tr>
+        <tr>
+            <td>Portugues</td>
+            <td>5.1</td>
+            <td>2.0</td>
+            <td>7.1</td>
+        </tr>
+        <tr>
+            <td>História</td>
+            <td>5.1</td>
+            <td>2.0</td>
+            <td>7.1</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>5.1</td>
+            <td>2.0</td>
+            <td>7.1</td>
+        </tr>
+    </table><br><br>
+    <h2></h2>
+
+    <p style="font-size: 25px;"><label>Faltas</label></p>
+    <table>
+        <tr>
+            <th>Disciplina</th>
+            <th>Faltas</th>
+            <th>Limite</th>
+            
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>0</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td>3</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Portugues</td>
+            <td>2</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>História</td>
+            <td>0</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>0</td>
+            <td>10</td>
+        </tr>
+    </table><br><br>
+
+    <p style="font-size: 25px;">Consultar material à ser estudado</p>
+    <div class="materiais">
+        
+        <section>
+            <article>
+                <a href="https://saber.com.br/obras/PNLD/PNLD_2020/PORTUGUES_CONEXAO_USO/9ANO/PNLD20_Portugues_ConexaoUso_9ano_MatDigProf.pdf"> <img src="img/portugues.jpg" alt="" ></a>
+            </article>
+            <article>
+                <a href="https://leonardoportaldesign.files.wordpress.com/2020/02/a-conquista-da-matematica-9-ano.pdf"> <img src="img/matematica.png" alt=""></a>
+            </article>
+                <a href="https://saber.com.br/obras/PNLD/PNLD_2020/MOSAICO/9ANO/PNLD20_MOSAICO_Arte_9ano_PR.pdf"> <img src="img/artes.jpg" ></a>
+            </article>
+            <article>
+                <a href="https://saber.com.br/obras/PNLD/PNLD_2020/HISTORIA_DOC/9ANO/PNLD20_HistoriaDoc_9ano_MatDigProf.pdf"> <img src="img/historia.jpg" alt=""></a>
+            </article>
+            <article>
+                <a href="https://saber.com.br/obras/PNLD/PNLD_2020/POR%20DENTRO%20GEOGRAFIA/9ANO/PNLD20_PorDentroGeografia_9ano_MatDigProf.pdf"> <img src="img/geografia.jpg" alt=""></a>
+            </article>
+            <article>
+                <a href="https://saber.com.br/obras/PNLD/PNLD_2020/WAY_TO_ENGLISH/9ANO/PNLD20_WayToEnglish_9ano_MatDigProf.pdf"><img src="img/ingles.jpg" alt=""></a>
+            <article>
+        </section>
+    </div>	
+    <h2></h2>
+    
+    <p style="font-size: 25px;">Chat</p>
+    <button id="msg">Fale com o professor</button><br><br>
+
+    <br><a href="index.html">Voltar para página de login</a>
+</body>
+</html>
