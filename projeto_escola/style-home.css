@@ -8,7 +8,8 @@
 #chat-btn {
   width: 40px;
   height: 28px;
-  background-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 4px;
   position: relative;
 }
@@ -27,27 +28,38 @@
 
 .bt {
   border:1px solid #3676ffcc;
-  border-radius:2px;
+  border-radius:5px;
   display:inline;
   cursor:pointer;
   font-family:Verdana;
   font-weight:bold;
-  font-size:15px;
+  font-size:13px;
   padding:4px;
   text-decoration:none;
 }
 
 tr:hover {background-color: #f5f5f5}
 
+table {
+  width: 50%;
+}
+
+th, td {
+  height: 25px;
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
 select {
   border:2px solid #000000cc;
-  border-radius:15px;
+  border-radius:5px;
   display:inline;
   cursor:pointer;
   font-family:Verdana;
   font-weight:bold;
   font-size:12px;
-  padding:3px;
+  padding:5px;
   text-decoration:none;
 }
 
@@ -73,7 +85,7 @@ body{
 
 a{
   text-decoration: none;
-  margin: 0 0 0 15px;
+  margin: 2 0 0 15px;
 }
 
 a {
