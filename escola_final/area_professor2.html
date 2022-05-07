@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style-home.css"/>
-    <title>Área secretaria</title>
+    <title>Área do professor</title>
 </head>
 <body>
-    <h1>Área secretaria</h1>
+    <div class="container" >
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+         
+        <div class="content">
+          <div id="login">
+    <h1>Área do professor</h1>
     <p style="font-size: 25px;"><label>Cadastro acadêmico do aluno</label></p>
     <form class="form">
         <p> 
@@ -21,11 +27,11 @@
         </p>
         <p> 
             <label for="faltas">Número de faltas</label>
-            <input id="faltas" name="faltas" type="number">
+            <input id="faltas" min="0" name="faltas" type="number">
         </p>
         <p> 
             <label for="nota">Nota do aluno</label>
-            <input id="nota" name="nota" type="number">
+            <input id="nota" min="0" name="nota" type="number">
         </p><br>
         <button class="bt" onclick="alert('Cadastrado')">Cadastrar</button>
     </form><br>
@@ -150,6 +156,18 @@
     <p style="font-size: 25px;"><label>Verificar se há solicitações pendentes</label><br>
         <button class="bt">Verificar</button>
     </p>
+    <h2></h2>
+    <p style="font-size: 25px;"><label>Postar Material de Estudo</label><br>
+        <td><b><button class="bt" type="reset">Postar</b></td></button>
+    </p>
+    <h2></h2>
+    <p style="font-size: 25px;"><label>Exportar Agenda de Provas</label><br>
+        <td><b><button class="bt" type="reset">Exportar</b></td></button>
+    </p>
+    <h2></h2>
+    <p style="font-size: 25px;"><label for="extra">Exportar Atividades Extras</label><br>
+        <td><b><button class="bt" type="reset">Exportar</b></td></button>
+    </p><br>
     <h2></h2>
     <p style="font-size: 25px;">Chat</p>
     <button id="msg">Envie ou leia uma mensagem</button><br><br>
