@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "João Paulo",
+        "aulas": ["Judo","Natacão","Português","Inglês"],
+        "notas": [3,4.5,3.5,2],
+        "faltas": [3,1,1,0],
+        "provas": ["19/05","20/05","21/05","21/05"]
+    },
+    {
+        "nome": "Maria Joaquina",
+        "aulas": ["Álgebra","Português","Matemática"],
+        "notas": [4.5,2.5,5],
+        "faltas": [2,0,1],
+        "provas": ["19/05","21/05","22/05"]
+    },
+    {
+        "nome": "Pedro Augusto",
+        "aulas": ["Português","Inglês","Matemática"],
+        "notas": [4,3.5,2],
+        "faltas": [5,0,0],
+        "provas": ["21/05","21/05","22/05"]
+    },
+    {
+        "nome": "Ana Paula",
+        "aulas": ["Português","Inglês","Álgebra","Matemática"],
+        "notas": [3.5,4,2.5,3],
+        "faltas": [1,1,1,0],
+        "provas": ["19/05","20/05","21/05","21/05"]
+    },
+    {
+        "nome": "Yasmin",
+        "aulas": ["Biologia","Artes","Física","Química"],
+        "notas": [5,5,3.5,4.5],
+        "faltas": [5,1,0],
+        "provas": ["19/05","20/05","21/05","21/05"]
+    }
+]

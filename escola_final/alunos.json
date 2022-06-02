@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "João Paulo",
+        "atividade": true,
+        "atividade_extra": ["Judo","Natacão"],
+        "disciplina": ["Português","Inglês"],
+        "responsavel": "César"
+    },
+    {
+        "nome": "Maria Joaquina",
+        "atividade": true,
+        "atividade_extra": ["Álgebra"],
+        "disciplina": ["Português","Matemática"],
+        "responsavel": "Paula"
+    },
+    {
+        "nome": "Pedro Augusto",
+        "atividade": false,
+        "atividade_extra": [],
+        "disciplina": ["Português","Inglês","Matemática"],
+        "responsavel": "Emílio"
+    },
+    {
+        "nome": "Ana Paula",
+        "atividade": true,
+        "atividade_extra": ["Português","Inglês"],
+        "disciplina": ["Álgebra","Matemática"],
+        "responsavel": "Tyene"
+    },
+    {
+        "nome": "Yasmin",
+        "atividade": true,
+        "atividade_extra": ["Biologia"],
+        "disciplina": ["Artes","Física","Química"],
+        "responsavel": "Darley"
+    }
+]

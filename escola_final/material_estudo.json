@@ -1,0 +1,42 @@
+[
+    {
+        "disciplina": "Português",
+        "materias": ["Préterito mais que prefeito"]
+    },
+    {
+        "disciplina": "Inglês",
+        "materias": ["Verbo To Be"]
+    },
+    {
+        "disciplina": "Matemática",
+        "materias": ["Probabilidade e Estatística"]
+    },
+    {
+        "disciplina": "Álgebra",
+        "materias": ["Vetores e Matrizes"]
+    },
+    {
+        "disciplina": "Natação",
+        "materias": ["Livre"]
+    },
+    {
+        "disciplina": "Judo",
+        "materias": ["Livre"]
+    },
+    {
+        "disciplina": "Artes",
+        "materias": ["Livre"]
+    },
+    {
+        "disciplina": "Biologia",
+        "materias": ["Sistema digestório"]
+    },
+    {
+        "disciplina": "Física",
+        "materias": ["Termodinâmica"]
+    },
+    {
+        "disciplina": "Química",
+        "materias": ["Estequiometria"]
+    }
+]

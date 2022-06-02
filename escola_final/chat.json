@@ -1,0 +1,14 @@
+[
+    {
+        "enviado_por": "João Pedro",
+        "msg": "Olá professor, tudo bem? Sua prova na sexta-feira será em dupla?"
+    },
+    {
+        "enviado_por": "Fabrício",
+        "msg": "Olá João, tudo bem! Na sexta a prova será individual, mas você poderá consultar seu caderno."
+    },
+    {
+        "enviado_por": "João Pedro",
+        "msg": "Certo, Obrigado professor!"
+    }
+]
